@@ -14,7 +14,7 @@ ReactDOM.render(
   <Provider store={configureStore()}>
     <App />
   </Provider>,
-  document.getElementById('react-weather-root')
+  document.getElementById('weather-app-root')
 );
 
 // If you want to start measuring performance in your app, pass a function
