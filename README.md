@@ -70,3 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### Credits to Adriana Mandjarova for their weather animations, check them out at https://lottiefiles.com/user/263075
+
+### This app will not work unless you have an API key from Weather API org and a key.js under src folder that exports const key = KEY
+### You can grab the key from https://openweathermap.org/
