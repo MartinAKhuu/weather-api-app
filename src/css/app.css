@@ -1,0 +1,9 @@
+.weather-form {
+  text-align: center; }
+
+.weather-form input,
+.weather-form button {
+  width: 100%; }
+
+.weather-form #weather-input {
+  height: 100%; }

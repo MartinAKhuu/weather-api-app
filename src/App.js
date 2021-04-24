@@ -1,4 +1,4 @@
-import './App.css';
+import './css/app.css';
 import WeatherApp from './components/WeatherApp';
 
 const App = () => {
