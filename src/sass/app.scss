@@ -5,8 +5,13 @@
 .weather-form input,
 .weather-form button {
     width: 100%;
+    border-radius: 0;
 }
 
 .weather-form #weather-input {
     height: 100%;
+}
+
+.weather-card {
+    border: 1px solid #000;
 }
