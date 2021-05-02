@@ -38,7 +38,7 @@ const WeatherApp = ({ city }) => {
     return (
         <>
             <WeatherForm />
-            {loading ? <ReactLoading color={loaderColor} type={loaderType} /> : <WeatherCard data={data} />}
+            {loading ? <ReactLoading className="react-loader" color={loaderColor} type={loaderType} /> : <WeatherCard data={data} />}
         </>
     );
 }
