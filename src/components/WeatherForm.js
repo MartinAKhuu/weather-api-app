@@ -13,7 +13,7 @@ const WeatherForm = ({ onUpdatePressed }) => {
     return (
         <div className="weather-form">
             <div className="row no-gutters">
-                <div className="col-9">
+                <div className="col-sm-9">
                     <input
                         id="weather-input"
                         type="text"
@@ -21,7 +21,7 @@ const WeatherForm = ({ onUpdatePressed }) => {
                         value={inputValue}
                         onChange={e => setInputValue(e.target.value)} />
                 </div>
-                <div className="col-3">
+                <div className="col-sm-3">
                     <button onClick={handleChange}>Update City</button>
                 </div>
             </div>

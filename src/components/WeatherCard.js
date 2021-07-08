@@ -11,7 +11,7 @@ const WeatherCard = ({ data }) => {
         return (
             <div className="weather-card">
                 <div className="row align-items-center" >
-                    <div className="col-6">
+                    <div className="col-sm-6">
                         <div className="p-4">
                             <div>{data.name}, {data.sys.country}</div>
                             <div className="display-4">{data.main.temp}&nbsp;°C</div>
@@ -19,7 +19,7 @@ const WeatherCard = ({ data }) => {
                             <div>{capitalize(data.weather[0].description)}</div>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-sm-6">
                         <img className="img-fluid" src={
                             getCorrectGif(data.weather[0].icon)
                         } alt={data.weather[0].description} />
