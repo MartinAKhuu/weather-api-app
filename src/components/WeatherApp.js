@@ -16,10 +16,10 @@ const WeatherApp = ({ city }) => {
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
+        setLoading(true);
         fetch("https://api.openweathermap.org/data/2.5/weather?q=" + city +
             "&units=metric&appid=" + key)
             .then(function (response) {
-                setLoading(true);
                 if (!response.ok) {
                     window.alert("Please enter a valid city name");
                     throw Error(response.statusText);
