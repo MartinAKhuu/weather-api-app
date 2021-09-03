@@ -12,7 +12,7 @@ const WeatherForm = ({ onUpdatePressed }) => {
 
     return (
         <div className="weather-form">
-            <div className="row no-gutters">
+            <div className="row g-0">
                 <div className="col-sm-9">
                     <input
                         id="weather-input"
